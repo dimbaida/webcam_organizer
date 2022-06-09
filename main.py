@@ -1,19 +1,10 @@
-import sys, os
+import sys
 import body
-import logging
 import xml.etree.cElementTree as ET
 from ui import *
-from PIL import Image
-from PyQt6 import QtCore, QtGui, QtWidgets
-from PyQt6.QtCore import *
+from PyQt6 import QtWidgets
 from PyQt6.QtWidgets import *
-from PyQt6.QtGui import *
 
-'''
-TOKEN = 'dfadsg'
-MAIN_URL = f'sdsd{TOKEN}'
-print(MAIN_URL)
-'''
 
 class MyWin(QtWidgets.QMainWindow):
 
